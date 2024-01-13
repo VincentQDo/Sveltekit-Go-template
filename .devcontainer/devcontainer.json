@@ -1,0 +1,27 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/alpine
+{
+	"name": "Dev Container Svelte Go",
+	"build": {
+		"context": ".",
+		"dockerfile": "Dockerfile" // This is the name of your Dockerfile
+	},
+	// Add other configurations like port forwarding, extensions etc.
+	"forwardPorts": [
+		3000
+	], // Example to forward port 3000 from container to host
+	"settings": {
+		// Place settings you want to modify here
+	},
+	"extensions": [
+		"golang.go",
+		"svelte.svelte-vscode",
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode"
+	],
+	"mounts": [
+		"source=vsc-remote-containers,target=/app,type=volume"
+	],
+	// Post create command can be omitted since dependencies would be installed within the volume.
+	"remoteUser": "appuser"
+}
