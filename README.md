@@ -2,7 +2,9 @@
 
 ## Prerequisites
 Install Docker
+
 Install Visual Studio Code (VS Code)
+
 Install Remote - Containers extension in VS Code
 
 ## Setup
