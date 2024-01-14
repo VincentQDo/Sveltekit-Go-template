@@ -1,17 +1,17 @@
 # Bjerksund-Stensland-Calculator
 
-##Prerequisites
+## Prerequisites
 Install Docker
 Install Visual Studio Code (VS Code)
 Install Remote - Containers extension in VS Code
 
-##Setup
-Open the Command Palette in VS Code
+## Setup
+- Open the Command Palette in VS Code
 
-Use the shortcut Ctrl+Shift+P (Cmd+Shift+P on macOS).
-Type in Clone Repository in Container Volume
-Type Remote-Containers: Clone Repository in Container Volume... and hit Enter.
+- Use the shortcut `Ctrl+Shift+P` (Cmd+Shift+P on macOS).
 
-When prompted, enter the URL of your Git repository.
+- Type `Remote-Containers: Clone Repository in Container Volume...` and hit Enter.
 
-Select Create a new volume and name it vsc-remote-containers.
+- When prompted, enter the URL of this Git repository.
+
+- Select Create a new volume and name it `vsc-remote-containers`.
