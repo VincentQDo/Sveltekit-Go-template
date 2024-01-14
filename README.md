@@ -1,4 +1,4 @@
-# Bjerksund-Stensland-Calculator
+# Sceltekit + Go template
 
 ## Prerequisites
 Install Docker
